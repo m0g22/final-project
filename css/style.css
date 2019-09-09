@@ -1,0 +1,48 @@
+/*
+ #3e0606
+ */
+
+body {
+    background-color:black;
+    background-image: url("../img/sleepback.gif");
+   }
+   .gallery {
+   /* background: black;*/
+   /* background-image: url("../img/sleepback.gif");*/
+  }
+  
+  .gallery-cell {
+    /*background-color: aliceblue;*/
+    width: 400%;
+    height: 600px;
+    padding: 99px;
+  }
+  .gallery-cell img {
+    display: block;
+    max-height: 400px;
+    max-width: 400%;
+    padding: 55px;
+    margin: 0 auto;
+  }
+  .w3-button {
+    font-family: 'Chilanka', cursive;
+    width:200px;
+    height: 55px;
+    }
+  /*
+font-family: 'Chilanka', cursive;
+font-family: 'Gayathri', sans-serif;
+*/
+footer{
+color: aliceblue;
+background-color: white;
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+font-family: 'Chilanka', cursive;
+font-size: 18px;
+}
