@@ -1,11 +1,5 @@
-$( function() {
-
-    var $gallery = $('.gallery').flickity({
-        cellSelector: '.gallery-cell',
-        contain: true,
-        autoPlay: 10000
-    })
-    
-  });
-  
-  
+ $( function() {
+    var $carouselExampleSlidesOnly = $('#carousel-inner').flickity({
+         cellSelector: '#carousel-inner',
+         contain: true,
+         autoPlay: 10000,     })       });
